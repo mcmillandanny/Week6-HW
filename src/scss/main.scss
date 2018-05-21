@@ -1,0 +1,93 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ccc;
+	
+}
+
+
+
+
+/* 2. Content ================================= */
+
+
+ 
+      #map {
+        height: 50%;
+        width: 50%;
+        float: right;
+      }
+
+      #results {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 1px solid black;
+
+
+        p, a, li, ul{
+          text-align: center;
+          margin: 5px;
+
+        }
+
+        a {
+          text-align: center;
+          text-decoration: none;
+          font-weight: bold;
+          border-bottom: 1px orange solid;
+          font-size: 30px;
+
+        }
+
+        img {
+        display: flex;
+        margin-left: 120px;
+        margin-top: 20px;
+
+
+        }
+      }
+  
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+
+
+
+
+
+
+
+
+
+
+      
